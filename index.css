@@ -5,6 +5,12 @@
     position: absolute;
     top: 80%;
     left: 41%;
+    background: linear-gradient(to bottom, transparent 50%, black 50%); /* Crea una línea desde el 50% hacia abajo */
+    border: 10px solid black  ;
+  
+    
+    
+    
 }
 @media screen and (max-width: 414px){
     .fotoperfil{
@@ -25,3 +31,9 @@
     backdrop-filter: blur(5px);
     font-size: 1.5vw;
 }
+.linea {
+    border-top: 10px solid black;
+    height: 300px;
+    max-width: 100%;
+    padding: 0;
+  }
